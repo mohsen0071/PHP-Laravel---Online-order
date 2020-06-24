@@ -1,0 +1,92 @@
+@font-face {
+    font-family: IRANSans;
+    font-style: normal;
+    font-weight: bold;
+    src: url("../fonts/iransans_Farsi_numerals/eot/IRANSansWeb(FaNum)_Bold.eot");
+    src: url("../fonts/iransans_Farsi_numerals/eot/IRANSansWeb(FaNum)_Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/iransans_Farsi_numerals/woff2/IRANSansWeb(FaNum)_Bold.woff2") format("woff2"), url("../fonts/iransans_Farsi_numerals/woff/IRANSansWeb(FaNum)_Bold.woff") format("woff"), url("../fonts/iransans_Farsi_numerals/ttf/IRANSansWeb(FaNum)_Bold.ttf") format("truetype"); }
+@font-face {
+    font-family: IRANSans;
+    font-style: normal;
+    font-weight: 500;
+    src: url("../fonts/iransans_Farsi_numerals/eot/IRANSansWeb(FaNum)_Medium.eot");
+    src: url("../fonts/iransans_Farsi_numerals/eot/IRANSansWeb(FaNum)_Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/iransans_Farsi_numerals/woff2/IRANSansWeb(FaNum)_Medium.woff2") format("woff2"), url("../fonts/iransans_Farsi_numerals/woff/IRANSansWeb(FaNum)_Medium.woff") format("woff"), url("../fonts/iransans_Farsi_numerals/ttf/IRANSansWeb(FaNum)_Medium.ttf") format("truetype"); }
+@font-face {
+    font-family: IRANSans;
+    font-style: normal;
+    font-weight: 300;
+    src: url("../fonts/iransans_Farsi_numerals/eot/IRANSansWeb(FaNum)_Light.eot");
+    src: url("../fonts/iransans_Farsi_numerals/eot/IRANSansWeb(FaNum)_Light.eot?#iefix") format("embedded-opentype"), url("../fonts/iransans_Farsi_numerals/woff2/IRANSansWeb(FaNum)_Light.woff2") format("woff2"), url("../fonts/iransans_Farsi_numerals/woff/IRANSansWeb(FaNum)_Light.woff") format("woff"), url("../fonts/iransans_Farsi_numerals/ttf/IRANSansWeb(FaNum)_Light.ttf") format("truetype"); }
+@font-face {
+    font-family: IRANSans;
+    font-style: normal;
+    font-weight: 200;
+    src: url("../fonts/iransans_Farsi_numerals/eot/IRANSansWeb(FaNum)_UltraLight.eot");
+    src: url("../fonts/iransans_Farsi_numerals/eot/IRANSansWeb(FaNum)_UltraLight.eot?#iefix") format("embedded-opentype"), url("../fonts/iransans_Farsi_numerals/woff2/IRANSansWeb(FaNum)_UltraLight.woff2") format("woff2"), url("../fonts/iransans_Farsi_numerals/woff/IRANSansWeb(FaNum)_UltraLight.woff") format("woff"), url("../fonts/iransans_Farsi_numerals/ttf/IRANSansWeb(FaNum)_UltraLight.ttf") format("truetype"); }
+@font-face {
+    font-family: IRANSans;
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/iransans_Farsi_numerals/eot/IRANSansWeb(FaNum).eot");
+    src: url("../fonts/iransans_Farsi_numerals/eot/IRANSansWeb(FaNum).eot?#iefix") format("embedded-opentype"), url("../fonts/iransans_Farsi_numerals/woff2/IRANSansWeb(FaNum).woff2") format("woff2"), url("../fonts/iransans_Farsi_numerals/woff/IRANSansWeb(FaNum).woff") format("woff"), url("../fonts/iransans_Farsi_numerals/ttf/IRANSansWeb(FaNum).ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'Glyphicons Halflings';
+
+    src: url('../fonts/glyphicons-halflings-regular.eot');
+    src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/glyphicons-halflings-regular.woff2') format('woff2'),
+    url('../fonts/glyphicons-halflings-regular.woff') format('woff'),
+    url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'),
+    url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}
+
+body {
+    font-family: IRANSans;
+
+}
+.table-factor {
+    width: 100%;
+    border: 1px solid #000;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+    direction: rtl;
+}
+
+.table-factor.header {
+    background: #fcfcfc
+}
+
+.table-factor.header img {
+    /*background: #5fa950;*/
+    float: right;
+    padding: 15px;
+    height: 50px;
+}
+
+.table-factor.desc td {
+    padding: 5px 0;
+}
+
+.table-factor td {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    -webkit-print-color-adjust: exact;
+}
+
+.table-factor.fac td {
+    border-bottom: 1px solid #000;
+    padding: 5px 0;
+}
+
+.table-factor.fac .h {
+    background: #fcfcfc
+}
+
+.table-factor.des td {
+    padding: 5px 0;
+    text-align: right;
+    padding-right: 10px;
+}
